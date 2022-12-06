@@ -14,7 +14,10 @@ node app.js    o bien     nodemon app.js
 VERIFICAR EN POSTMAN EL ENTORNO {{url}} YA SEA DESARROLLO O PRODUCCION:
 ```
 http://localhost:8080/ <-- desarrollo
-https://restserver-curso-node-alexande.herokuapp.com <-- produccion
+https://curso-node-restserver-basico2-alexander.up.railway.app/ <-- produccion
+
+En caso de que google sign in se quede en blanco, dar permison el google Cloud
+https://console.cloud.google.com/apis/credentials?project=curso-node-alexander-351718
 
 usuarios get o post:   http://localhost:8080/api/usuarios/
 usuarios get con limite de resultados por pagina http://localhost:8080/api/usuarios?limite=10
